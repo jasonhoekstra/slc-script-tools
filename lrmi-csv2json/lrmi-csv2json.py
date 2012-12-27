@@ -81,7 +81,10 @@ def make_json(row, heading, index):
 	"""Simple properties"""
 	for i,h in enumerate(list(set(heading) - set(complex_headings) - set([""]))):
 		if json_tuple[h] != [""]:
-			json_final_tuple['properties'][h] = json_tuple[h]
+			if h == 'id':
+				json_final_tuple['properties'][h] = json_tuple[h][0]
+			else:
+				json_final_tuple['properties'][h] = json_tuple[h]
 		
 	
 	"""complex properties"""
