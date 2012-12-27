@@ -112,7 +112,7 @@ def make_json(row, heading, index):
 			try:
 				x = complex_fields_tuple[p][e]['id']
 				if x != [""]:
-					json_final_tuple['properties'][p][e]['id'] = complex_fields_tuple[p][e]['id']
+					json_final_tuple['properties'][p][e]['id'] = complex_fields_tuple[p][e]['id'][0]
 			except:
 				pass
 
