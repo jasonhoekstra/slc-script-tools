@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>72</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.1</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>73</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.2</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>71</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.2a</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>80</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.2b</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>93</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.2c</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>71</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.3</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>68</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.A.4</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>94</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.B.5</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>71</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.B.6</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>85</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.B.7</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>95</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.B.8</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2010-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>71</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Sixth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.6.EE.C.9</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>65</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.A.1</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>94</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.A.2</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>69</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.B.3</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>71</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.B.4</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>73</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.B.4a</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2011-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>84</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Seventh grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.7.EE.B.4b</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>85</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.A.1</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>94</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.A.2</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>85</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.A.3</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>86</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.A.4</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>65</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.B.5</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-08-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>98</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.B.6</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>78</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.7</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>65</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.7a</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>83</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.7b</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-09-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>98</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.8</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>91</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.8a</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>85</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.8b</AssessmentIdentificationCode>
+    </row>
+    <row>
+        <AdministrationDate>2012-10-01</AdministrationDate>
+        <RetestIndicator>Primary administration</RetestIndicator>
+        <ScoreResults_AssessmentReportingMethod>Number score</ScoreResults_AssessmentReportingMethod>
+        <ScoreResults_Results>98</ScoreResults_Results>
+        <GradeLevelWhenAssessed>Eighth grade</GradeLevelWhenAssessed>
+        <StudentUniqueStateId>800000025</StudentUniqueStateId>
+        <AssessmentIdentificationCode>CCSS.Math.Content.8.EE.C.8c</AssessmentIdentificationCode>
+    </row>
+</root>
