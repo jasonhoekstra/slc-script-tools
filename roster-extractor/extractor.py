@@ -53,40 +53,6 @@ def grade_string_to_int(grade):
 		'fourteenth': 14,
 	}.get(grade, 1) 
 
-def student_section():
-	links = json.loads(get_json('/home', auth_token))['links']
-	for link in links:
-		if link['rel'] == 'getTeacherSectionAssociations':
-			lk = link['href']
-			break
-	print link
-	
-	sections = json.loads(get_json(lk, auth_token))
-
-	students_to_section_title = {}
-
-	for section in sections:
-		links = section['links']
-		for link in links:
-			if link['rel'] == 'getSection':
-				lk = link['href']
-				break
-
-		section_title = json.loads(get_json(lk, auth_token))['uniqueSectionCode']
-
-		links = json.loads(get_json(lk, auth_token))['links']
-		for link in links:
-			if link['rel'] == 'getStudents':
-				lk = link['href']
-				break			
-
-		students = json.loads(get_json(lk, auth_token))
-	
-		for student in students:
-			students_to_section_title[student['id']] = section_title
-	
-	return students_to_section_title
-
 
 if __name__ == '__main__':
 	if len(sys.argv) != 2:
@@ -94,10 +60,6 @@ if __name__ == '__main__':
 		exit(1)
 	
 	auth_token = sys.argv[1]
-	
-	students_to_section_title = student_section()
-	
-	students = json.loads(get_json('/students', auth_token))
 
 	csvfile = csv.writer(open("studentlist.csv", "wb"))
 
@@ -118,44 +80,70 @@ if __name__ == '__main__':
 	csvfile.writerow(list)
 
 	list = []
+	
+	teachers = json.loads(get_json('/teachers', auth_token))
+	for teacher in teachers:
+		for link in teacher['links']:
+			if link['rel'] == 'getTeacherSectionAssociations':
+				lk = link['href']
+				break
 
-	for student in students:
-		list.append(student["studentUniqueStateId"])
-		list.append(student["id"])
-		list.append(student["name"]["firstName"])
-		if "middleName" in student["name"]:
-			list.append(student["name"]["middleName"])
-		else:
-			list.append("")
-		list.append(student["name"]["lastSurname"])
-		if student["sex"] == "Male":
-			list.append("Y")
-		else:
-			list.append("N")
-		if student["sex"] == "Female":
-			list.append("Y")
-		else:
-			list.append("N")
+		sections = json.loads(get_json(lk, auth_token))
 
-		"""USER_NAME"""
-		list.append(student["name"]["firstName"].lower() + '_' + student["name"]["lastSurname"].lower())
+		for section in sections:
+			links = section['links']
+			for link in links:
+				if link['rel'] == 'getSection':
+					lk = link['href']
+					break
+
+			section_title = json.loads(get_json(lk, auth_token))['uniqueSectionCode']
+
+			links = json.loads(get_json(lk, auth_token))['links']
+			for link in links:
+				if link['rel'] == 'getStudents':
+					lk = link['href']
+					break			
+
+			students = json.loads(get_json(lk, auth_token))
 		
-		"""Grade and School name"""
-		student_extra = json.loads(
-			get_json('/students/'+ student["id"] +'/studentSchoolAssociations', auth_token)
-		)
-		list.append(grade_string_to_int(student_extra[0]['entryGradeLevel']))
+			for student in students:
+				list.append(student["studentUniqueStateId"])
+				list.append(student["id"])
+				list.append(student["name"]["firstName"])
+				if "middleName" in student["name"]:
+					list.append(student["name"]["middleName"])
+				else:
+					list.append("")
+				list.append(student["name"]["lastSurname"])
+				if student["sex"] == "Male":
+					list.append("Y")
+				else:
+					list.append("N")
+				if student["sex"] == "Female":
+					list.append("Y")
+				else:
+					list.append("N")
 
-		school = json.loads(
-			get_json('/schools/'+ student_extra[0]['schoolId'], auth_token)
-		)
+				"""USER_NAME"""
+				list.append(student["name"]["firstName"].lower() + '_' + student["name"]["lastSurname"].lower())
+				
+				"""Grade and School name"""
+				student_extra = json.loads(
+					get_json('/students/'+ student["id"] +'/studentSchoolAssociations', auth_token)
+				)
+				list.append(grade_string_to_int(student_extra[0]['entryGradeLevel']))
 
-		list.append(school['nameOfInstitution'])
-		try:
-			list.append(students_to_section_title[student["id"]])
-		except:
-			pass
-		
-		csvfile.writerow(list)
-		print list
-		list = []
+				school = json.loads(
+					get_json('/schools/'+ student_extra[0]['schoolId'], auth_token)
+				)
+
+				list.append(school['nameOfInstitution'])
+				try:
+					list.append(section_title)
+				except:
+					pass
+				
+				csvfile.writerow(list)
+				print list
+				list = []
