@@ -659,6 +659,10 @@
             {
               "id": "assessmentHistStateTestR",
               "type": "GRID"
+            },
+            {
+              "id": "assessmentHistLexile",
+              "type": "GRID"
             }
           ]
         },
