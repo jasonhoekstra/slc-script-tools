@@ -88,62 +88,66 @@ if __name__ == '__main__':
 				lk = link['href']
 				break
 
-		sections = json.loads(get_json(lk, auth_token))
+		try:			
+			sections = json.loads(get_json(lk, auth_token))
 
-		for section in sections:
-			links = section['links']
-			for link in links:
-				if link['rel'] == 'getSection':
-					lk = link['href']
-					break
+			for section in sections:
+				links = section['links']
+				for link in links:
+					if link['rel'] == 'getSection':
+						lk = link['href']
+						break
 
-			section_title = json.loads(get_json(lk, auth_token))['uniqueSectionCode']
+				section_title = json.loads(get_json(lk, auth_token))['uniqueSectionCode']
 
-			links = json.loads(get_json(lk, auth_token))['links']
-			for link in links:
-				if link['rel'] == 'getStudents':
-					lk = link['href']
-					break			
+				links = json.loads(get_json(lk, auth_token))['links']
+				for link in links:
+					if link['rel'] == 'getStudents':
+						lk = link['href']
+						break			
 
-			students = json.loads(get_json(lk, auth_token))
-		
-			for student in students:
-				list.append(student["studentUniqueStateId"])
-				list.append(student["id"])
-				list.append(student["name"]["firstName"])
-				if "middleName" in student["name"]:
-					list.append(student["name"]["middleName"])
-				else:
-					list.append("")
-				list.append(student["name"]["lastSurname"])
-				if student["sex"] == "Male":
-					list.append("Y")
-				else:
-					list.append("N")
-				if student["sex"] == "Female":
-					list.append("Y")
-				else:
-					list.append("N")
+				students = json.loads(get_json(lk, auth_token))
+			
+				for student in students:
+					list.append(student["studentUniqueStateId"])
+					list.append(student["id"])
+					list.append(student["name"]["firstName"])
+					if "middleName" in student["name"]:
+						list.append(student["name"]["middleName"])
+					else:
+						list.append("")
+					list.append(student["name"]["lastSurname"])
+					if student["sex"] == "Male":
+						list.append("Y")
+					else:
+						list.append("N")
+					if student["sex"] == "Female":
+						list.append("Y")
+					else:
+						list.append("N")
 
-				"""USER_NAME"""
-				list.append(student["name"]["firstName"].lower() + '_' + student["name"]["lastSurname"].lower())
-				
-				"""Grade and School name"""
-				student_extra = json.loads(
-					get_json('/students/'+ student["id"] +'/studentSchoolAssociations', auth_token)
-				)
-				list.append(grade_string_to_int(student_extra[0]['entryGradeLevel']))
+					"""USER_NAME"""
+					list.append(student["name"]["firstName"].lower() + '_' + student["name"]["lastSurname"].lower())
+					
+					"""Grade and School name"""
+					student_extra = json.loads(
+						get_json('/students/'+ student["id"] +'/studentSchoolAssociations', auth_token)
+					)
+					list.append(grade_string_to_int(student_extra[0]['entryGradeLevel']))
 
-				school = json.loads(
-					get_json('/schools/'+ student_extra[0]['schoolId'], auth_token)
-				)
+					school = json.loads(
+						get_json('/schools/'+ student_extra[0]['schoolId'], auth_token)
+					)
 
-				list.append(school['nameOfInstitution'])
-				try:
-					list.append(section_title)
-				except:
-					pass
-				
-				csvfile.writerow(list)
-				print list
-				list = []
+					list.append(school['nameOfInstitution'])
+					try:
+						list.append(section_title)
+					except:
+						pass
+					
+					csvfile.writerow(list)
+					print list
+					list = []
+			break
+		except:
+			print "Access not allowed to this teacher."
