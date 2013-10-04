@@ -1,0 +1,44 @@
+{
+    "@context": [
+        { 
+        "url": { "@type": "@id" },
+        "@vocab": "http://schema.org/"
+        },
+        {
+            "lrmi": "http://lrmi.net/the-specification#",
+            "useRightsUrl": { "@id": "lrmi:useRightsUrl", "@type": "@id" }
+        },
+    ],
+    "@type": "CreativeWork",
+    "name": "Perfect Cubes and Cube Roots",
+    "url": "http://www.goorulearning.org/#resource-play&id=fe3fc7e9-70cd-4130-8495-ef20fab3a023&pn=resource",
+    "description": "Introduction to exponent rules",
+    "inLanguage": "en",    
+    "publisher": { "name": "LearnZillion" },
+    "keywords": [ "perfect cubes", "cube roots" ],
+    "learningResourceType": "Video",
+    "author": { "name": "Sal Khan" },
+    "dateCreated": "2011-02-20",
+    "intendedEndUserRole": "Student",
+    "educationalUse": [ "Presentation", "Reinforcement" ],
+    "timeRequired": "P5M",
+    "typicalAgeRange": "12-14",
+    "interactivityType": "expositive",
+    "useRightsUrl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "provider": { "name": "Gooru Learning", "url": "http://www.goorulearning.org" },
+    "educationalAlignment":   [
+        {   
+            "educationalFramework" : "Common Core State Standards",
+            "targetName": "CCSS.Math.8.NS.A.1",
+            "targetUrl" : "http://corestandards.org/Math/Content/8/NS/A/3",
+            "alignmentType": "teaches",
+            "@type":  "AlignmentObject"
+        },
+        {
+            "educationalFramework" : "US K-12 Grade Levels",
+            "targetName": "Grade 8",
+            "alignmentType": "teaches",
+            "@type":  "AlignmentObject"
+        }
+    ]
+}

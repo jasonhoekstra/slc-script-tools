@@ -707,33 +707,7 @@
           "assessmentFamily": "Lexile"
         },
         "lazy": false
-      },
-      "items": [
-        {
-          "id": "year",
-          "name": "Date",
-          "type": "FIELD",
-          "datatype": "string",
-          "field": "administrationDate",
-          "width": 90
-        },
-        {
-          "id": "grade",
-          "name": "Grade",
-          "type": "FIELD",
-          "datatype": "string",
-          "field": "assessments.gradeLevelAssessedCode",
-          "width": 75
-        },
-        {
-          "id": "assessmentname",
-          "name": "Assessment Name",
-          "type": "FIELD",
-          "datatype": "STRING",
-          "field": "assessments.assessmentTitle",
-          "width": 300
-        }
-      ]
+      }
     }
   }
 }

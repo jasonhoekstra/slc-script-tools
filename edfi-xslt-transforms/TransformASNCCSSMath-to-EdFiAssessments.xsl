@@ -6,7 +6,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     version="1.0">
     <xsl:template match="/" xml:space="preserve">
-<InterchangeAssessmentMetadata xmlns="http://ed-fi.org/0100"><xsl:for-each select="//asn:Statement"><xsl:if test="asn:statementNotation">
+<Standards><xsl:for-each select="//asn:Statement"><xsl:if test="asn:statementNotation">
     <Assessment>
         <AssessmentTitle><xsl:value-of select="asn:statementNotation"/></AssessmentTitle>
         <AssessmentIdentificationCode IdentificationSystem="Federal">
@@ -28,6 +28,6 @@
             <xsl:otherwise>Ungraded</xsl:otherwise>
 </xsl:choose></GradeLevelAssessed>
     </Assessment></xsl:if></xsl:for-each>
- </InterchangeAssessmentMetadata>
+ </Standards>
     </xsl:template>
 </xsl:stylesheet>
